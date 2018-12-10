@@ -14,7 +14,6 @@ public class TestBuscador {
 	private Seeker buscador;
 	private List<Muestra> muestras;
 	
-	//Ambos los vemos como ExpresionLogicas
 	private ValorLogico spyValorLogico;
 	private OperacionLogica spyOperacionLogica;
 	
@@ -29,8 +28,6 @@ public class TestBuscador {
 	
 		stubMuestra0 = mock(Muestra.class); 
 		stubMuestra1 = mock(Muestra.class);
-		
-		
 	}
 
 	@Test
